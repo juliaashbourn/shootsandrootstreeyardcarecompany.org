@@ -1,128 +1,224 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HUNANIMA - Machines Agricoles Simples</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #fefefe;
-      color: #333;
-    }
-    header {
-      background-color: #2e7d32; /* Vert foncé */
-      color: #fdd835; /* Jaune vif */
-      padding: 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5em;
-    }
-    header p {
-      margin: 5px 0 0;
-      font-size: 1.2em;
-    }
-    nav {
-      background-color: #fdd835;
-      padding: 10px;
-      text-align: center;
-    }
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-      color: #2e7d32;
-    }
-    .hero {
-      background: url('https://i.pinimg.com/550x/a9/df/51/a9df5172829f8c05f5b92f97553d41ae.jpg') no-repeat center center/cover;
-      height: 350px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      text-shadow: 2px 2px 4px #000;
-      font-size: 2em;
-    }
-    section {
-      padding: 50px 20px;
-      text-align: center;
-    }
-    section h2 {
-      color: #2e7d32;
-      margin-bottom: 20px;
-    }
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-    }
-    .gallery img {
-      width: 280px;
-      height: 180px;
-      object-fit: cover;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    }
-    footer {
-      background-color: #2e7d32;
-      color: #fff;
-      text-align: center;
-      padding: 20px;
-    }
-    footer p {
-      margin: 5px 0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoots and Roots Tree Yard Care Company | Premium Arboriculture Systems</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;700;800&family=Space+Mono&display=swap" rel="stylesheet">
+    <style>
+        body { background-color: #0d0f0e; color: #e4e9e6; font-family: 'Plus Jakarta Sans', sans-serif; overflow-x: hidden; }
+        .font-mono { font-family: 'Space Mono', monospace; }
+        .text-acid-lime { color: #ccff00; }
+        .bg-acid-lime { background-color: #ccff00; }
+        .border-lime-glow { border-color: rgba(204, 255, 0, 0.2); }
+        .bg-charcoal-card { background-color: #131715; }
+        .reveal { transition: all 1.4s cubic-bezier(0.16, 1, 0.3, 1); opacity: 0; transform: translateY(80px); }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #0d0f0e; }
+        ::-webkit-scrollbar-thumb { background: #ccff00; }
+        .glass-header { background: rgba(13, 15, 14, 0.75); backdrop-blur: 20px; }
+        .organic-line { height: 100%; width: 1px; background: linear-gradient(to bottom, #ccff00 0%, transparent 100%); }
+    </style>
 </head>
-<body>
+<body class="antialiased">
 
-  <header>
-    <h1>HUNANIMA</h1>
-    <p>Machines Agricoles Simples et Fiables</p>
-  </header>
-
-  <nav>
-    <a href="#about">À propos</a>
-    <a href="#gallery">Galerie</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <div class="hero">
-    <p>Votre partenaire pour des machines agricoles durables</p>
-  </div>
-
-  <section id="about">
-    <h2>À propos de nous</h2>
-    <p>
-      Chez <strong>HUNANIMA</strong>, nous nous spécialisons dans la fabrication et la distribution de 
-      <strong>machines agricoles simples</strong> pour faciliter le travail des agriculteurs. 
-      Nos solutions combinent <em>durabilité, efficacité et innovation</em> afin de répondre aux besoins de toutes les exploitations.
-    </p>
-  </section>
-
-  <section id="gallery">
-    <h2>Nos Machines</h2>
-    <div class="gallery">
-      <img src="http://ogden_images.s3.amazonaws.com/www.motherearthnews.com/images/2014/11/22234423/Boaz-Mini-Combine-jpg.jpg" alt="Mini moissonneuse">
-      <img src="https://krs-agro.ru/products/zagotovka_kormov/elho/19/7.jpg" alt="Machine agricole">
-      <img src="https://img.mod-network.net/files/images/6218ac69d37fb/SimpleFarmSilov1000_6222.jpg" alt="Équipement agricole simple">
+    <!-- Subtle Geometric Line Layout Background -->
+    <div class="fixed inset-0 grid grid-cols-4 pointer-events-none z-0 opacity-5">
+        <div class="border-r border-white h-full"></div>
+        <div class="border-r border-white h-full"></div>
+        <div class="border-r border-white h-full"></div>
+        <div></div>
     </div>
-  </section>
 
-  <section id="contact">
-    <h2>Contactez-nous</h2>
-    <p><strong>Email :</strong> admin@tyusex.shop</p>
-    <p><strong>Téléphone :</strong> +33 7 38 50 26 36</p>
-    <p><strong>Adresse :</strong> Avenue Baratier, Montmorency, 95160, France</p>
-  </section>
+    <!-- Floating Navigation Bar -->
+    <nav class="fixed w-full z-50 py-6 px-6 md:px-12 glass-header border-b border-zinc-900">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="text-lg font-extrabold tracking-tighter text-white flex items-center gap-2">
+                SHOOTS <span class="text-acid-lime font-light font-mono">&amp;</span> ROOTS
+            </div>
+            <div class="hidden lg:flex space-x-12 text-[10px] font-mono tracking-[0.3em] uppercase text-zinc-400">
+                <a href="#canopy" class="hover:text-acid-lime transition">// Canopy Architecture</a>
+                <a href="#operations" class="hover:text-acid-lime transition">// Infrastructure</a>
+                <a href="#charter" class="hover:text-acid-lime transition">// Botanical Shield</a>
+                <a href="#contact" class="bg-white text-black px-4 py-2 font-bold tracking-normal normal-case font-sans hover:bg-acid-lime hover:text-black transition duration-300">Initiate Estimate</a>
+            </div>
+        </div>
+    </nav>
 
-  <footer>
-    <p>&copy; 2025 HUNANIMA - Tous droits réservés.</p>
-  </footer>
+    <!-- Section 1: Hero Entry & Scale Layout -->
+    <section class="min-h-screen flex items-center justify-center relative px-6 z-10 pt-24">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-12 items-center w-full">
+            <div class="lg:col-span-7 text-left">
+                <span class="text-acid-lime font-mono tracking-[0.3em] text-[10px] uppercase mb-5 block">Environmental Matrix // Tree Preservation</span>
+                <h1 class="text-5xl md:text-8xl font-extrabold text-white leading-[0.95] tracking-tighter mb-8">
+                    ADVANCED <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-zinc-400 to-zinc-600">ARBORICULTURE.</span>
+                </h1>
+                <p class="text-zinc-400 text-sm md:text-base max-w-xl leading-relaxed mb-12 font-light">
+                    Shoots and Roots Tree Yard Care Company engineers macro-environmental canopy systems, complex root restoration parameters, and precise technical preservation protocols.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#operations" class="bg-acid-lime text-black font-mono text-xs tracking-widest uppercase px-10 py-5 hover:bg-white transition duration-300 font-bold text-center">Analyze Operations</a>
+                    <a href="tel:17693120280" class="text-white font-mono text-xs border border-zinc-800 bg-[#131715]/80 px-10 py-5 hover:border-acid-lime transition duration-300 text-center">+1 769-312-0280</a>
+                </div>
+            </div>
+            
+            <!-- High-Impact Botanical Frame -->
+            <div class="lg:col-span-5 relative h-[55vh] lg:h-[70vh] w-full bg-charcoal-card border border-zinc-900 p-4">
+                <div class="w-full h-full relative overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover filter brightness-75 contrast-125 saturate-50 hover:scale-105 transition duration-700" alt="Massive Ancient Deep Forest Tree Roots and Canopy Landscape Architecture">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0d0f0e] via-transparent to-transparent"></div>
+                </div>
+                <div class="absolute -bottom-2 -left-2 w-16 h-[1px] bg-acid-lime"></div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Section 2: Spatial Overview & Verified Registry (Deep Scroll 1) -->
+    <section id="canopy" class="py-60 px-6 md:px-12 bg-[#101311] border-y border-zinc-900/60 relative">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-16 items-start">
+            <div class="lg:col-span-4 reveal">
+                <span class="text-acid-lime font-mono tracking-widest text-[9px] uppercase block mb-4">// FIELD REGISTRY</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-white tracking-tight leading-tight">
+                    Structural stabilization systems for residential and commercial forestry.
+                </h2>
+                <div class="w-12 h-[2px] bg-acid-lime mt-8"></div>
+            </div>
+            <div class="lg:col-span-8 reveal text-zinc-400 font-light text-base leading-loose space-y-8">
+                <p>
+                    Operating from our centralized command workstation strategically mapped at **11265 S Barnards Rd Molalla, OR, 97038-8563, United States**, our mobile units execute heavy structural clearing, micro-nutrient tree root feeding, and advanced hazardous limbs configuration.
+                </p>
+                <p class="text-zinc-500 text-sm">
+                    Every task parameter is safely completed in compliance with local forestry guidelines. Our specialized arborist cells manipulate macro-growth vectors to optimize structural longevity and protect surrounding physical property lines.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Technical Operations Matrix (Deep Scroll 2) -->
+    <section id="operations" class="py-60 px-6 md:px-12 bg-[#0d0f0e]">
+        <div class="max-w-7xl mx-auto">
+            <div class="mb-40 text-left reveal border-l border-acid-lime pl-8">
+                <span class="text-acid-lime font-mono uppercase tracking-[0.4em] text-[9px] block mb-3">System Blueprint // 02</span>
+                <h2 class="text-4xl md:text-6xl font-extrabold text-white tracking-tighter">CORE DEPLOYMENTS</h2>
+            </div>
+
+            <!-- Asymmetric Brutalist Botanical Layout -->
+            <div class="grid lg:grid-cols-3 gap-12">
+                <!-- Deployment Unit 1 -->
+                <div class="bg-charcoal-card p-6 border border-zinc-900/80 hover:border-lime-glow transition duration-500 reveal relative group">
+                    <div class="overflow-hidden mb-8 h-80 bg-zinc-950 relative">
+                        <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover filter grayscale group-hover:filter-none transition duration-500 saturate-100" alt="Professional High Altitude Tree Canopy Climbing Maintenance Work">
+                    </div>
+                    <span class="text-zinc-600 font-mono text-[10px] block mb-2">// PARAMETER_A</span>
+                    <h3 class="text-2xl text-white font-bold mb-4">Precision Canopy Pruning</h3>
+                    <p class="text-zinc-400 text-xs leading-relaxed font-light">Removal of high-risk structural decay, canopy elevation leveling, and strategic clearing of architectural blockages or power line pathways.</p>
+                </div>
+
+                <!-- Deployment Unit 2 -->
+                <div class="bg-charcoal-card p-6 border border-zinc-900/80 hover:border-lime-glow transition duration-500 reveal lg:translate-y-16 relative group">
+                    <div class="overflow-hidden mb-8 h-80 bg-zinc-950 relative">
+                        <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover filter grayscale group-hover:filter-none transition duration-500 saturate-100" alt="Large Forestry Extraction and Technical Stump Grinding Clean Yard Services">
+                    </div>
+                    <span class="text-zinc-600 font-mono text-[10px] block mb-2">// PARAMETER_B</span>
+                    <h3 class="text-2xl text-white font-bold mb-4">Macro Technical Removal</h3>
+                    <p class="text-zinc-400 text-xs leading-relaxed font-light">Safe extraction of large-scale dangerous timber, wind-damaged configurations, and immediate subsurface stump grinding.</p>
+                </div>
+
+                <!-- Deployment Unit 3 -->
+                <div class="bg-charcoal-card p-6 border border-zinc-900/80 hover:border-lime-glow transition duration-500 reveal relative group">
+                    <div class="overflow-hidden mb-8 h-80 bg-zinc-950 relative">
+                        <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover filter grayscale group-hover:filter-none transition duration-500 saturate-100" alt="Deep Soil Organic Fertilizer Treatment and Subsurface Tree Root Micro Feeding">
+                    </div>
+                    <span class="text-zinc-600 font-mono text-[10px] block mb-2">// PARAMETER_C</span>
+                    <h3 class="text-2xl text-white font-bold mb-4">Root Injection Systems</h3>
+                    <p class="text-zinc-400 text-xs leading-relaxed font-light">Subsurface deep-soil liquid macro fertilization, health restorations, and customized structural stabilization barriers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Scale Atmosphere Visual Break (Deep Scroll 3) -->
+    <section class="h-[80vh] relative overflow-hidden bg-zinc-950 border-t border-zinc-900">
+        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1200&auto=format&fit=crop" class="absolute inset-0 w-full h-full object-cover opacity-15 filter contrast-125 saturate-0 brightness-70" alt="Deep High Mountain Forest Atmosphere Abstract Wilderness Backdrop">
+        <div class="absolute inset-0 flex items-center justify-center text-center px-6">
+            <div class="max-w-4xl reveal">
+                <span class="text-acid-lime font-mono text-xs tracking-[0.4em] uppercase block mb-6">// FORESTRY COMPLIANCE STANDARD</span>
+                <h3 class="text-3xl md:text-5xl text-zinc-100 font-extrabold leading-tight tracking-tighter">
+                    "We execute clean environmental engineering layouts with millimeter precision."
+                </h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Botanical Shield Protocol & Governance Charter -->
+    <section id="charter" class="py-48 px-6 md:px-12 bg-[#101311]">
+        <div class="max-w-4xl mx-auto bg-charcoal-card border border-zinc-900 p-8 md:p-16 reveal relative">
+            <div class="absolute bottom-0 right-0 w-16 h-[1px] bg-acid-lime"></div>
+            <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-12 pb-6 border-b border-zinc-900">
+                <div>
+                    <h2 class="text-xl font-bold text-white uppercase tracking-tight">Environmental Asset Shield Protocol</h2>
+                    <p class="text-zinc-600 font-mono text-[9px] uppercase tracking-widest mt-1">Operational Charter // 2026</p>
+                </div>
+                <div class="mt-4 sm:mt-0 text-[10px] font-mono font-bold text-acid-lime border border-lime-glow px-4 py-2 bg-[#ccff00]/5 tracking-widest">REGISTRATION_ACTIVE</div>
+            </div>
+            <div class="h-60 overflow-y-scroll pr-4 text-xs font-mono tracking-wide leading-loose text-zinc-500">
+                <p class="text-zinc-300 font-bold mb-4">GOVERNANCE ENFORCED: JUNE 2026</p>
+                <p class="mb-4">Shoots and Roots Tree Yard Care Company maintains local property boundaries, botanical privacy, and secure architectural data systems across every residential or industrial engagement field.</p>
+                
+                <h4 class="text-white font-bold mt-6 mb-2">01 // Architectural Property Insulation</h4>
+                <p class="mb-4">All geographic tree maps, structural layouts, and field estimates processed through our core communications hub (service@shootsandrootstreeyardcarecompany.org) are locked within secure isolated logs. External public vector data-harvesting units are restricted.</p>
+                
+                <h4 class="text-white font-bold mt-6 mb-2">02 // Subsurface Protection Safeguards</h4>
+                <p class="mb-4">Deep excavation parameters, underground line mapping data, and pipeline utility paths are entirely monitored to shield localized public infrastructure arrays from mechanical structural errors.</p>
+                
+                <h4 class="text-white font-bold mt-6 mb-2">03 // Regional Jurisdiction Metrics</h4>
+                <p>All contractual operations, emergency limb removals, and commercial logging agreements are tightly bound to the strict statutory codes enforced within Molalla, Oregon, United States.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Brutalist Industrial Botanical Footer -->
+    <footer id="contact" class="py-36 px-6 md:px-12 bg-[#0a0c0b] text-zinc-500 border-t border-zinc-900 sequential-reveal">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20">
+            <div>
+                <h2 class="text-4xl md:text-6xl font-extrabold mb-12 text-white tracking-tighter">SECURE AN <br><span class="text-acid-lime font-light font-mono">// ARBOR_BRIEF.</span></h2>
+                <div class="space-y-12">
+                    <div>
+                        <span class="text-zinc-700 font-mono text-[9px] tracking-widest block mb-3 uppercase">Digital Portal Node</span>
+                        <a href="mailto:service@shootsandrootstreeyardcarecompany.org" class="text-xl md:text-2xl font-bold text-white hover:text-acid-lime transition tracking-tight break-all">service@shootsandrootstreeyardcarecompany.org</a>
+                    </div>
+                    <div>
+                        <span class="text-zinc-700 font-mono text-[9px] tracking-widest block mb-3 uppercase">Voice Communication Line</span>
+                        <a href="tel:17693120280" class="text-xl md:text-2xl font-bold text-white hover:text-acid-lime transition tracking-tight">+1 769-312-0280</a>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:text-right flex flex-col justify-end items-start lg:items-end">
+                <span class="text-zinc-700 font-mono text-[9px] tracking-widest block mb-3 uppercase">Physical Logistics Command</span>
+                <p class="text-xl md:text-2xl font-normal leading-relaxed text-zinc-300 tracking-tight">
+                    11265 S Barnards Rd Molalla<br>
+                    OR, 97038-8563<br>
+                    United States
+                </p>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto mt-28 pt-10 border-t border-zinc-900/60 flex flex-col md:flex-row justify-between text-[9px] text-zinc-700 uppercase tracking-widest font-mono">
+            <p>&copy; 2026 SHOOTS AND ROOTS TREE YARD CARE COMPANY. SECURITY ARRAYS ARMED.</p>
+            <p>LOCAL CONDUIT // MOLALLA, OREGON, USA</p>
+        </div>
+    </footer>
+
+    <script>
+        // High-Precision Linear Observer for Dynamic Scrolling Activation
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('active');
+            });
+        }, { threshold: 0.05 });
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
 </body>
 </html>
